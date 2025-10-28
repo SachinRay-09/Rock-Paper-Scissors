@@ -1,0 +1,49 @@
+body{
+    background-color: rgb(25, 25, 25);
+}
+
+header{
+    font-family: Arial;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.icons{
+    height: 50px;
+} 
+
+.buttons{
+    background-color: transparent;
+    height: 120px;
+    width: 120px;
+    border: solid 3px white;
+    border-radius: 50%;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.js-result,
+.js-moves,
+.js-score{
+    color: white;
+    font-size: 20px;
+}
+
+.reset-button{
+    padding: 6px 10px 6px 10px;
+    font-family: Roboto, Arial;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.reslt{
+    font-weight: bold;
+    font-size: 28px;
+}
+
+.score{
+    margin-top: 60px;
+}
