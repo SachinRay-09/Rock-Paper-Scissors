@@ -56,3 +56,7 @@ Rock-paper-scissors/
 ## License
 
 This project is open source and available under the MIT License.
+
+## Note
+
+-Recently added autoplay button in the version 2.
