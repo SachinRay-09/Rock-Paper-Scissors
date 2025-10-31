@@ -57,7 +57,3 @@ Rock-paper-scissors/
 ## License
 
 This project is open source and available under the MIT License.
-
-## Note
-
-Feel free to customize and enhance the game as per your requirements! Contributions are welcome.
