@@ -10,6 +10,7 @@ A simple and interactive implementation of the classic Rock Paper Scissors game 
 - Local storage to persist game scores
 - Reset score functionality
 - Responsive design with hover effects
+- Auto Play mode : press it once and watch the game play itself. Press it again to stop.
 
 ## How to Play
 
@@ -34,15 +35,15 @@ Rock-paper-scissors/
 │   ├── rock-emoji.png
 │   ├── paper-emoji.png
 │   └── scissors-emoji.png
-├── file.html
-├── file.css
-└── file.js
+├── file-autoplay.html
+├── file-autoplay.css
+└── file-autoplay.js
 ```
 
 ## Setup
 
 1. Clone the repository
-2. Open `file.html` in your web browser
+2. Open `file-autoplay.html` in your web browser
 3. Start playing!
 
 ## Features to Add
@@ -56,3 +57,7 @@ Rock-paper-scissors/
 ## License
 
 This project is open source and available under the MIT License.
+
+## Note
+
+Feel free to customize and enhance the game as per your requirements! Contributions are welcome.

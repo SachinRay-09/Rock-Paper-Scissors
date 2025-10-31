@@ -8,8 +8,9 @@ header{
     color: white;
     font-size: 30px;
     font-weight: bold;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 50px;
+    margin-left: 10px;
 }
 
 .icons{
@@ -19,6 +20,7 @@ header{
 .button1,
 .button2,
 .button3{
+    margin-left: 10px;
     background-color: transparent;
     height: 120px;
     width: 120px;
@@ -31,12 +33,14 @@ header{
 .js-result,
 .js-moves,
 .js-score{
+    margin-left: 10px;
     color: white;
     font-size: 20px;
 }
 
 .reset-button,
 .auto-play{
+    margin-left: 10px;
     padding: 6px 10px 6px 10px;
     font-family: Roboto, Arial;
     font-size: 15px;
@@ -59,4 +63,5 @@ header{
     position: fixed;
     bottom: 0;
     left: 2px;
+    margin-left: 5px;
 }
