@@ -1,0 +1,54 @@
+
+<!DOCTYPE html></DOCTYPE>
+<html>
+   <head>
+        <title>Game</title>
+        <link rel="stylesheet" href="file-autoplay.css">
+   </head>
+   <body>
+        <header>Play the Rock-Paper-Scissor game here</header>
+        <div style="margin-bottom: 60px;">
+            <button class="button1" onclick="
+                // game('Rock',c);
+            ">
+                <img class="icons" src="icons/rock-emoji.png">
+            </button>
+            <button class="button2" onclick="
+                // game('Paper',c);
+            ">
+                <img class="icons" src="icons/paper-emoji.png">
+            </button>
+            <button class="button3" onclick="
+                // game('Scissors',c);
+            ">
+                <img class="icons" src="icons/scissors-emoji.png">
+            </button>
+        </div>
+        <div>
+            <p class="js-result"></p>
+            <p class="js-moves">
+            </p>
+            <p class="js-score score"></p>
+        </div>
+        <div>
+            <!-- <button onclick="
+                stats();
+            ">Show stats</button> -->
+            <button class ="reset-button" onclick="
+                score.winstat=0;
+                score.losestat=0;
+                score.tiestat=0;
+                localStorage.removeItem('score');
+                score_dis();
+                document.querySelector('.js-moves').innerHTML = '';
+                document.querySelector('.js-result').innerHTML = '';
+            ">Reset Score</button>
+            <button class="auto-play" onclick="
+                autoplay();
+            ">Auto Play</button>
+        </div>
+        <p class="note">Note: you can press 'r' for Rock, 'p' for Paper and 's' for Scissors in your keyboard. You an do the same with CapsLk on.</p>
+        <script src="file-autoplay.js">
+        </script>
+   </body>
+</html>
